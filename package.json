@@ -1,0 +1,27 @@
+{
+  "name": "teste-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run  --browser chrome",
+    "cy:open": "npx cypress open",
+    "cy:report": "cypress run --record --key ec36dce6-baed-48fc-9d03-d40ba1c0bcb2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robsonaugusto/teste-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robsonaugusto/teste-cypress/issues"
+  },
+  "homepage": "https://github.com/robsonaugusto/teste-cypress#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^7.1.0",
+    "cypress": "^9.7.0"
+  }
+}
